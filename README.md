@@ -8,7 +8,7 @@ Newton-Nullstellensuche). Ausgelagert aus `TT-Siegwahrscheinlichkeit`; konsumier
 
     gradlew.bat build
 
-Benötigt ein JDK 19 (Gradle-Toolchain, wird aus den üblichen Speicherorten
+Benötigt ein JDK 21 (Gradle-Toolchain, wird aus den üblichen Speicherorten
 z. B. `~/.jdks/` erkannt).
 
 ## Nutzung durch die App-Repos
@@ -26,7 +26,7 @@ In deren `build.gradle`:
     }
 
     dependencies {
-        implementation 'com.github.dnoble539:MathLib:v1.0.0'
+        implementation 'com.github.dnoble539:MathLib:v1.1.0'
     }
 
 (GroupId/ArtifactId ergeben sich bei JitPack aus GitHub-User/Repo-Name, nicht
